@@ -16,7 +16,7 @@ from cichlidanalysis.io.get_file_folder_paths import select_dir_path
 from cichlidanalysis.io.meta import load_meta_files
 from cichlidanalysis.io.als_files import load_als_files
 from cichlidanalysis.io.io_feature_vector import create_fv1, create_fv2
-from cichlidanalysis.utils.timings import load_timings
+from cichlidanalysis.utils.timings import load_timings, load_timings_10_14h
 from cichlidanalysis.analysis.processing import add_col, threshold_data, remove_cols
 from cichlidanalysis.analysis.bouts import find_bouts_input
 from cichlidanalysis.analysis.behavioural_state import define_rest, plotting_clustering_states

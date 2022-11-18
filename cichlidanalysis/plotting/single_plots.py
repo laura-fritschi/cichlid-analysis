@@ -55,7 +55,7 @@ def image_minmax(rootdir, ymin, ymax, fish_ID, meta):
         plt.imshow(frame)
         plt.plot([0, 500], [ymin, ymin], color='r')
         plt.plot([0, 500], [ymax, ymax], color='r')
-        plt.savefig(os.path.join(rootdir, "{0}_ylims_{1}.png".format(fish_ID, meta["species"].replace(' ', '-'))))
+        plt.savefig(os.path.join(rootdir, "{0}_ylims.png"))
         plt.close()
         cap.release()
         cv2.destroyAllWindows()
